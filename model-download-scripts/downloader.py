@@ -3,9 +3,9 @@ import torch
 import json
 import gc
 
-save_dir = config.save_dir
+save_dir = '/data/user/bsindala/PhD/CS762-NaturalLanguageProcessing/disease-classification-generation/models/Llama-3.1-Nemotron-70B-Instruct'
 
-model_name = "meta-llama/Meta-Llama-3-70B"
+model_name = "meta-llama/Llama-3.2-3B-Instruct"
 hf_token = json.load(open('config.json', 'r'))['hf_token']
 
 # bnb_config = BitsAndBytesConfig(
